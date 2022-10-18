@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    /* background-color: #ddd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+}
+
+.sedans {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 20px;
+    background-color: hsl(31, 77%, 52%);
+    /* flex-wrap: wrap; */
+}
+
+.suv {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    background-color: hsl(184, 100%, 22%);
+    /* flex-wrap: wrap; */
+}
+
+.luxury {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    background-color: hsl(179, 100%, 13%);
+    /* flex-wrap: wrap; */
+}
+
+.sedans .btn:link,
+.sedans .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 10px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    border-radius: 100px;
+    font-size: 15px;
+    width: 130px;
+}
+
+.sedans .btn:hover,
+.sedans .btn:active {
+    color: hsl(0, 0%, 95%);
+    outline: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv .btn:link,
+.suv .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 10px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    border-radius: 100px;
+    font-size: 15px;
+    width: 130px;
+}
+
+.suv .btn:hover,
+.suv .btn:active {
+    color: hsl(0, 0%, 95%);
+    outline: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury .btn:link,
+.luxury .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 10px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    border-radius: 100px;
+    font-size: 15px;
+    width: 130px;
+}
+
+.luxury .btn:hover,
+.luxury .btn:active {
+    color: hsl(0, 0%, 95%);
+    outline: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
